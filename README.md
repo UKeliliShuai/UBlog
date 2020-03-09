@@ -11,6 +11,7 @@
 
 - 浏览[官网安装文档](https://hexo.io/docs/)
 - 下载[node.js](https://nodejs.org/en/)、[nodejs介绍](https://www.zaodei.com/node/1.html)
+- 下载[Git](https://git-scm.com/download)、安装[Git安装教程（Windows安装超详细教程）](https://www.jianshu.com/p/414ccd423efc)
 
 #### 候选框架
 
@@ -113,6 +114,47 @@ Global Options:
 3. 再次启动hexo
 
 #### 3 部署HexoBlog到Github
+
+1. 登录Github
+
+   ![1583595249829](D:\GitHub\UBlog\_static\1583595249829.png)
+
+2. 新建仓库
+
+   > 用户部署个人博客的github命名必须复核特定要求：
+   >
+   > 用户昵称.github.io
+
+3. 在*HexoBlog*下安装git deployer插件
+
+   > cnpm install --save hexo-deployer-git
+
+4. 设置_config.yml文件
+
+   ![1583596000476](D:\GitHub\UBlog\_static\1583596000476.png)
+
+   > 可以使用nodepad++打开
+
+   配置前：
+
+   ![1583596080749](D:\GitHub\UBlog\_static\1583596080749.png)
+
+   配置后：
+
+   ![1583596375465](D:\GitHub\UBlog\_static\1583596375465.png)
+
+5. **部署**
+
+   ```
+   hexo d
+   ```
+
+#### 4 修改主题
+
+##### 修改主题
+
+- [GITHUB+HEXO博客轻松更换主题外观](https://www.jianshu.com/p/469e985288b3)
+- [Hexo博客主题推荐](https://www.jianshu.com/p/bcdbe7347c8d)
 
 #### Ⅱ WordPress搭建
 
