@@ -23,7 +23,7 @@
 
 ### Ⅰ Hexo
 
-- Hexo搭建
+- [Hexo搭建](https://github.com/UKeliliShuai/UBlog/blob/master/Notes/Hexo%E6%90%AD%E5%BB%BA.md)
 
 - 定义[NexT主题](https://theme-next.iissnan.com/getting-started.html#third-party-services)
 
