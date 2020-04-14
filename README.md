@@ -35,3 +35,6 @@
 ## Operation&Maintenance
 
 > 面向问题的升级
+
+1.[在Hexo博客中插入图片的各种方式](https://juejin.im/post/5cbc67306fb9a068a84fe71d)
+
