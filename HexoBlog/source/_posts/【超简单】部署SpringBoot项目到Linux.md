@@ -6,11 +6,13 @@
 - 但是docker插件安装出错的小伙伴，还是回归 Spring Boot 部署 jar 包的方式。
 - 本文整合了多种部署姿势，以供参考。
 
+
+
 ## 2.docker插件方式
 
 - [部署 Spring Boot 到远程 Docker 容器](https://blog.csdn.net/u012702547/article/details/100153799)
-
 - 考虑TLS 安全连接[Docker Daemon 连接方式详解](https://www.jianshu.com/p/7ba1a93e6de4)
+- [linux下常用命令查看端口占用](https://blog.csdn.net/ws379374000/article/details/74218530)
 
 ### 2.1准备工作
 
@@ -130,9 +132,10 @@
 ### 3.4服务器运行jar包
 
 ```shell
+#进入目标目录
 java -jar jar包名称
 # 后台不间断运行
-nohup java -jar 名称.jar &
+nohup java -jar 名称.jar
 ```
 
 ## 4.常规方式
